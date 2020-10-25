@@ -15,3 +15,7 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/hilarioca
 
 You can find a contact form on the homepage, or send directly an <a href="mailto:calderon.hila@gmail.com">Email</a>. 
 
+Thank you for reading!
+
+HC
+
