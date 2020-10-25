@@ -6,14 +6,14 @@ permalink: /about/
 ---
 <br>
 
- <img src="{{site.avatar}}" class="avatar-round"/>
+<img src="/public/biopic.jpg" class="avatar-round"/>
 
 <p class="message">
-  Welcome to my Professional Portfolio!. 
+  Welcome to my Professional Portfolio!. </p>
    
-  My first suggestion for you is simple, just feel free to check out other parts of this website and, please, regularly come back since I'm constantly working on adding more content, additional projects, blogs, and publications. </p>
+  My first suggestion for you is simple, just feel free to check out other parts of this website and, please, regularly come back since I'm constantly working on adding more content, additional projects, blogs, and publications. 
   
- <p> Enjoy what you see!.</p>
+ Enjoy what you see!.
 
 
 
