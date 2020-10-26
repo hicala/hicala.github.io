@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Hila Calderon"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Hila Calderon"
+description              : "Data Science and GeoSpatial Data Engineer Portfolio."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,10 +93,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Hila Calderon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Data Science and GeoSpatial Data Engineer."
+  location         : "Ontario. Canada"
   email            :
   links:
     - label: "Email"
@@ -117,19 +117,22 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+      - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      # url: "https://linkedin.com/"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      # url: "lasgeotv"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      # url: "hicala"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -139,6 +142,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+      - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      # url: "hilariocalderon"
 
 
 # Reading Files
@@ -279,3 +285,16 @@ defaults:
       comments: # true
       share: true
       related: true
+
+
+  # _pagess
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true    
