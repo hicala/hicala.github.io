@@ -18,14 +18,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Hila Calderon"
 title_separator          : "|"
-subtitle                 : "Data Scientist | Geospatial Data Aanalyst" # site tagline that appears below site title in masthead
+subtitle                 : "Data Scientist | Geospatial Data Analyst Portfolio" # site tagline that appears below site title in masthead
 name                     : "Hila Calderon"
 description              : "Data Science and Geospatial Data Analytics Portfolio."
 url                      : "https://hicala.github.io"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hicala/hicala.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/500x500.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/88x88_logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : "/assets/images/author/500x500.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/author/88x88_logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 250
@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Hila Calderon"
-  avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : Data Scientist | Geospatial Data Aanalyst."
+  avatar           : "/assets/images/author/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "The digital footprint of Hila Calderon - Data Scientist and Geospatial Data Engineer."
   location         : "Ontario. Canada"
   email            : 
   links:
@@ -107,7 +107,7 @@ author:
       url: "https://hicala.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"lasgeotv"
+      url: "https://twitter.com/lasgeotv"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -123,7 +123,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"lasgeotv"
+      url: "https://twitter.com/lasgeotv"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -209,7 +209,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
