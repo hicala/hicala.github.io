@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-    image: "/assets/images/pages/header_unsplash_12.jpg"
+    image: "/assets/images/pages/header_unsplash_04.jpg"
 ---
 
 Greetings, I am Hila (Hilario) Calderon.
