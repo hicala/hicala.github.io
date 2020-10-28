@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data cloud deployment on Hila Calderon</title>
+    <link>https://hicala.github.io/tags/data-cloud-deployment/</link>
+    <description>Recent content in Data cloud deployment on Hila Calderon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Apr 2020 10:58:08 -0400</lastBuildDate><atom:link href="https://hicala.github.io/tags/data-cloud-deployment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nikon Project</title>
+      <link>https://hicala.github.io/projects/data_cloud_deployment/</link>
+      <pubDate>Thu, 09 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_cloud_deployment/</guid>
+      <description>*** Data cloud deployment.***  Feature Extraction Data Wrangling Exploratory Data Analysis (EDA)   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+  </channel>
+</rss>

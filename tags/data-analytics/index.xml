@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analytics on Hila Calderon</title>
+    <link>https://hicala.github.io/tags/data-analytics/</link>
+    <description>Recent content in Data Analytics on Hila Calderon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Apr 2020 10:58:08 -0400</lastBuildDate><atom:link href="https://hicala.github.io/tags/data-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon Project</title>
+      <link>https://hicala.github.io/projects/data_analytics/</link>
+      <pubDate>Thu, 09 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_analytics/</guid>
+      <description>*** Data Analytics. ***  Feature Extraction Data Wrangling Exploratory Data Analytics (EDA)   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+  </channel>
+</rss>

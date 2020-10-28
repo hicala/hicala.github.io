@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Portfolio on Hila Calderon</title>
+    <link>https://hicala.github.io/</link>
+    <description>Recent content in Data Science Portfolio on Hila Calderon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2020 10:58:08 -0400</lastBuildDate><atom:link href="https://hicala.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belkis Project</title>
+      <link>https://hicala.github.io/projects/data_visualization/</link>
+      <pubDate>Wed, 20 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_visualization/</guid>
+      <description>*** Data visualization. ***  PowerBI MatplotLib Gplot SeaBorn D3.js Tableau   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+    <item>
+      <title>Mily Project</title>
+      <link>https://hicala.github.io/projects/ide/</link>
+      <pubDate>Wed, 20 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/ide/</guid>
+      <description>*** Integrated development environment (IDE) ***  BeautifulSoup Pandas Restore Scrappy URL Lib API Data Feed   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+    <item>
+      <title>Amazon Project</title>
+      <link>https://hicala.github.io/projects/data_analytics/</link>
+      <pubDate>Thu, 09 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_analytics/</guid>
+      <description>*** Data Analytics. ***  Feature Extraction Data Wrangling Exploratory Data Analytics (EDA)   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+    <item>
+      <title>Halifax Project</title>
+      <link>https://hicala.github.io/projects/programming_languages/</link>
+      <pubDate>Thu, 09 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/programming_languages/</guid>
+      <description>Programming languages.  Python R programming Json SPSS MatLab   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+    <item>
+      <title>Hamilton Project</title>
+      <link>https://hicala.github.io/projects/math_stats/</link>
+      <pubDate>Thu, 09 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/math_stats/</guid>
+      <description>*** Math &amp;amp; Statistics.***  BeautifulSoup Pandas Restore Scrappy URL Lib API Data Feed   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+    <item>
+      <title>Nikon Project</title>
+      <link>https://hicala.github.io/projects/data_cloud_deployment/</link>
+      <pubDate>Thu, 09 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_cloud_deployment/</guid>
+      <description>*** Data cloud deployment.***  Feature Extraction Data Wrangling Exploratory Data Analysis (EDA)   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+    <item>
+      <title>Walmart Project</title>
+      <link>https://hicala.github.io/projects/web_scraping/</link>
+      <pubDate>Thu, 09 Apr 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/web_scraping/</guid>
+      <description>*** Web scraping ***  BeautifulSoup Pandas Restore Scrappy URL Lib API Data Feed   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+    <item>
+      <title>Market Research Project</title>
+      <link>https://hicala.github.io/projects/market_research/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/market_research/</guid>
+      <description>*** Web scrapping ***  BeautifulSoup Pandas Restore Scrappy URL Lib API Data Feed   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+    <item>
+      <title>Laura Project</title>
+      <link>https://hicala.github.io/projects/machine_learning/</link>
+      <pubDate>Sun, 20 May 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/machine_learning/</guid>
+      <description>*** Machine Learning. ***  Regression Reinforcement learning Deep learning Dimensionality reduction   About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://hicala.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hicala.github.io/contact/</guid>
+      <description>Feel free to connect with me on LinkedIn or by Email to get in touch. I am open to any technical debate about my topics of research, discuss collaboration, consulting or join working or research opportunities.
+ About  | Contact  | Portfolio  | Projects</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://hicala.github.io/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hicala.github.io/portfolio/</guid>
+      <description>What I Do? I enjoy having a &amp;ldquo;White Hat Hacker&amp;rdquo; attitude and mentality. This type of personality leads me to have a set of practical experiences with a wide range of technologies. See below in the following selection of what I have worked on.
+ Web scraping.  Data Analytics.  Data visualization.  Programming languages.  Math &amp;amp; Statistics.  Machine Learning.  Integrated development environment (IDE).  Data cloud deployment.</description>
+    </item>
+    
+  </channel>
+</rss>
