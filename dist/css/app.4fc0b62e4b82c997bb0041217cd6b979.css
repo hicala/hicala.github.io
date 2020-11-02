@@ -5880,3 +5880,8 @@ pre {
   margin-left: 2rem;
 }
 
+.resume-page article .embed-responsive-item {
+  width: 100%;
+  height: 543px;
+}
+
