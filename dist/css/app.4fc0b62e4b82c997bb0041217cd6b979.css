@@ -5878,6 +5878,7 @@ pre {
 .resume-page article {
   margin-left: auto;
   margin-right: auto;
+   width: 100%;
 }
 
 .resume-page article .embed-responsive-item {
