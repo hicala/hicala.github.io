@@ -5890,11 +5890,11 @@ nav a .f3 {
   font-size: 2em;
 }
 
-.resume-download a {
+#resume-download a {
   color: #96ccff;
 }
 
-.resume-download a:hover, .resume-download a:focus {
+#resume-download a:hover, .resume-download a:focus {
     color: #96ccff;
     transition: color .15s ease-in;
 }
