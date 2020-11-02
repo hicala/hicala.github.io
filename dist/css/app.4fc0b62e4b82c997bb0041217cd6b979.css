@@ -5874,3 +5874,9 @@ pre {
 .nested-links a{
   word-wrap: break-word;
 }
+
+.resume-page article {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
