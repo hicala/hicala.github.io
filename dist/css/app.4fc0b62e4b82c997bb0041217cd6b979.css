@@ -5876,8 +5876,8 @@ pre {
 }
 
 .resume-page article {
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .resume-page article .embed-responsive-item {
