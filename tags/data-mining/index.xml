@@ -18,12 +18,26 @@ As we already know Piracy still exists in the 21st Century. Piracy is a global c
     </item>
     
     <item>
-      <title>GDP Analysis in the contest of the economic development and income growth </title>
+      <title>Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US.</title>
+      <link>https://hicala.github.io/projects/prj_911/</link>
+      <pubDate>Sun, 09 Feb 2020 09:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/prj_911/</guid>
+      <description>Tools: Python, Numpy, Seaborn, Matplotlib, Pyplot
+In this research I am analyzing the 911 call dataset. Access to the source code here
+Data Source: Kaggle.
+The data contains the following fields( all are declared as a String variable):
+ lat : Latitude lng: Longitude desc: Description of the Emergency zip: Zipcode title: Title timeStamp: YYYY-MM-DD HH:MM:SS twp: Township addr: Address e: Dummy variable (always 1)  For the data analysis and visualisation we import all the dependencies.</description>
+    </item>
+    
+    <item>
+      <title>GDP Analysis in the context of the economic development and income growth </title>
       <link>https://hicala.github.io/projects/prj_gdp/</link>
       <pubDate>Sun, 09 Feb 2020 09:58:08 -0400</pubDate>
       
       <guid>https://hicala.github.io/projects/prj_gdp/</guid>
-      <description>I put together all the information related to the GDP and see it relationship per capita. It is already known that Per capita GDP is a metric that breaks down a country&amp;rsquo;s GDP per person and is calculated by dividing the GDP of a country by its population. Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year. Countries are sorted by nominal GDP estimates from financial and statistical institutions, which are calculated at market or government official exchange rates.</description>
+      <description>Tools: Python, NumPy, BeautifulSoup
+I put together all the information related to the GDP and see it relationship per capita. It is already known that Per capita GDP is a metric that breaks down a country&amp;rsquo;s GDP per person and is calculated by dividing the GDP of a country by its population. Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year.</description>
     </item>
     
     <item>

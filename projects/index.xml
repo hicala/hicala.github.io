@@ -6,7 +6,17 @@
     <description>Recent content in Projects on Hila Calderon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Feb 2020 09:58:08 -0400</lastBuildDate><atom:link href="https://hicala.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Sep 2020 18:58:08 -0400</lastBuildDate><atom:link href="https://hicala.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analytics Compilation</title>
+      <link>https://hicala.github.io/projects/data_analytics_compilation/</link>
+      <pubDate>Fri, 11 Sep 2020 18:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_analytics_compilation/</guid>
+      <description>Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US.: In this research I am analyzing the 911 call dataset in Pensylvania, US in 2016 using the Kaggle dataset for the analysis. More &amp;hellip;
+  GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;</description>
+    </item>
+    
     <item>
       <title>A NBA Statistical Analytical Research: Atlanta Hawks Roster. 2019-2020</title>
       <link>https://hicala.github.io/projects/prj_hawks/</link>
@@ -18,12 +28,26 @@ As we already know Piracy still exists in the 21st Century. Piracy is a global c
     </item>
     
     <item>
-      <title>GDP Analysis in the contest of the economic development and income growth </title>
+      <title>Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US.</title>
+      <link>https://hicala.github.io/projects/prj_911/</link>
+      <pubDate>Sun, 09 Feb 2020 09:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/prj_911/</guid>
+      <description>Tools: Python, Numpy, Seaborn, Matplotlib, Pyplot
+In this research I am analyzing the 911 call dataset. Access to the source code here
+Data Source: Kaggle.
+The data contains the following fields( all are declared as a String variable):
+ lat : Latitude lng: Longitude desc: Description of the Emergency zip: Zipcode title: Title timeStamp: YYYY-MM-DD HH:MM:SS twp: Township addr: Address e: Dummy variable (always 1)  For the data analysis and visualisation we import all the dependencies.</description>
+    </item>
+    
+    <item>
+      <title>GDP Analysis in the context of the economic development and income growth </title>
       <link>https://hicala.github.io/projects/prj_gdp/</link>
       <pubDate>Sun, 09 Feb 2020 09:58:08 -0400</pubDate>
       
       <guid>https://hicala.github.io/projects/prj_gdp/</guid>
-      <description>I put together all the information related to the GDP and see it relationship per capita. It is already known that Per capita GDP is a metric that breaks down a country&amp;rsquo;s GDP per person and is calculated by dividing the GDP of a country by its population. Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year. Countries are sorted by nominal GDP estimates from financial and statistical institutions, which are calculated at market or government official exchange rates.</description>
+      <description>Tools: Python, NumPy, BeautifulSoup
+I put together all the information related to the GDP and see it relationship per capita. It is already known that Per capita GDP is a metric that breaks down a country&amp;rsquo;s GDP per person and is calculated by dividing the GDP of a country by its population. Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year.</description>
     </item>
     
     <item>
@@ -64,12 +88,15 @@ As we already know Piracy still exists in the 21st Century. Piracy is a global c
     </item>
     
     <item>
-      <title>Data Analytics Compilation</title>
-      <link>https://hicala.github.io/projects/data_analytics_compilation/</link>
+      <title>Data Cloud Deployment Compilation</title>
+      <link>https://hicala.github.io/projects/data_cloud_deployment_compilation/</link>
       <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
       
-      <guid>https://hicala.github.io/projects/data_analytics_compilation/</guid>
-      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. It is already known that Per capita GDP is a metric that breaks down a country&amp;rsquo;s GDP per person and is calculated by dividing the GDP of a country by its population. Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year.</description>
+      <guid>https://hicala.github.io/projects/data_cloud_deployment_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
     </item>
     
     <item>
@@ -78,7 +105,70 @@ As we already know Piracy still exists in the 21st Century. Piracy is a global c
       <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
       
       <guid>https://hicala.github.io/projects/data_mining_compilation/</guid>
-      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. It is already known that Per capita GDP is a metric that breaks down a country&amp;rsquo;s GDP per person and is calculated by dividing the GDP of a country by its population. Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year.</description>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization Compilation</title>
+      <link>https://hicala.github.io/projects/data_visualization_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_visualization_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Integrated Development Environment Compilation</title>
+      <link>https://hicala.github.io/projects/ide_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/ide_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Compilation</title>
+      <link>https://hicala.github.io/projects/machine_learning_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/machine_learning_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Math &amp; Statistics Compilation</title>
+      <link>https://hicala.github.io/projects/math_stats_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/math_stats_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Programming languages Compilation</title>
+      <link>https://hicala.github.io/projects/programming_languages_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/programming_languages_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
     </item>
     
     <item>
