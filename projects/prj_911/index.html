@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US. | Hila Calderon</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="[ Data Analytics, Data Visualization, Data Mining ]">
+    <meta name="generator" content="Hugo 0.76.5" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="https://hicala.github.io/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US." />
+<meta property="og:description" content="[ Data Analytics, Data Visualization, Data Mining ]" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hicala.github.io/projects/prj_911/" />
+<meta property="article:published_time" content="2020-02-09T09:58:08-04:00" />
+<meta property="article:modified_time" content="2020-02-09T09:58:08-04:00" />
+<meta itemprop="name" content="Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US.">
+<meta itemprop="description" content="[ Data Analytics, Data Visualization, Data Mining ]">
+<meta itemprop="datePublished" content="2020-02-09T09:58:08-04:00" />
+<meta itemprop="dateModified" content="2020-02-09T09:58:08-04:00" />
+<meta itemprop="wordCount" content="849">
+
+
+
+<meta itemprop="keywords" content="Data Analytics,Data Visualization,Data Mining,Math &amp; Stats," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US."/>
+<meta name="twitter:description" content="[ Data Analytics, Data Visualization, Data Mining ]"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://hicala.github.io/images/911_mark-boss-lZB7Qf1Ipu4-unsplash.jpg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://hicala.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Hila Calderon
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://hicala.github.io/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://hicala.github.io/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://hicala.github.io/portfolio/" title="Portfolio page">
+              Portfolio
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://hicala.github.io/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://hicala.github.io/resume/" title="Resume page">
+              Resume
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+<a href="https://twitter.com/lasgeotv" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/hilariocalderon/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/hicala" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US.</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              [ Data Analytics, Data Visualization, Data Mining ]
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        PROJECTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://hicala.github.io/projects/prj_911/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://hicala.github.io/projects/prj_911/&amp;text=Data%20analytical%20review%20of%20the%20911%20Call%20incindents%20in%202016:%20Pennsylvania,%20US." class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://hicala.github.io/projects/prj_911/&amp;title=Data%20analytical%20review%20of%20the%20911%20Call%20incindents%20in%202016:%20Pennsylvania,%20US." class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US.</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-02-09T09:58:08-04:00">February 9, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><em>Tools: Python, Numpy, Seaborn, Matplotlib, Pyplot</em></p>
+<p>In this research I am analyzing the 911 call dataset. Access to the source code <a href="https://github.com/hicala/prj_911_kaggle">here</a></p>
+<p>Data Source: <a href="https://www.kaggle.com/mchirico/montcoalert">Kaggle</a>.</p>
+<p>The data contains the following fields( all are declared as a String variable):</p>
+<ul>
+<li>lat : Latitude</li>
+<li>lng: Longitude</li>
+<li>desc: Description of the Emergency</li>
+<li>zip: Zipcode</li>
+<li>title: Title</li>
+<li>timeStamp: YYYY-MM-DD HH:MM:SS</li>
+<li>twp: Township</li>
+<li>addr: Address</li>
+<li>e: Dummy variable (always 1)</li>
+</ul>
+<p>For the data analysis and visualisation we import all the dependencies.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#f92672">as</span> plt
+<span style="color:#f92672">import</span> seaborn <span style="color:#f92672">as</span> sns
+<span style="color:#f92672">%</span>matplotlib inline
+
+sns<span style="color:#f92672">.</span>set_style(<span style="color:#e6db74">&#39;whitegrid&#39;</span>)
+
+plt<span style="color:#f92672">.</span>rcParams[<span style="color:#e6db74">&#39;figure.figsize&#39;</span>] <span style="color:#f92672">=</span> (<span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">4</span>)
+</code></pre></div><p>Reading the data.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;data/911.csv&#39;</span>)
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>info()
+</code></pre></div><pre><code>&lt;class 'pandas.core.frame.DataFrame'&gt;
+RangeIndex: 99492 entries, 0 to 99491
+Data columns (total 9 columns):
+lat          99492 non-null float64
+lng          99492 non-null float64
+desc         99492 non-null object
+zip          86637 non-null float64
+title        99492 non-null object
+timeStamp    99492 non-null object
+twp          99449 non-null object
+addr         98973 non-null object
+e            99492 non-null int64
+dtypes: float64(3), int64(1), object(5)
+memory usage: 6.8+ MB
+</code></pre>
+<p>Checking the head of the dataframe</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>head()
+</code></pre></div><!-- raw HTML omitted -->
+<h2 id="basic-analysis">Basic Analysis</h2>
+<p>Let&rsquo;s check out the top 5 zipcodes for calls.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;zip&#39;</span>]<span style="color:#f92672">.</span>value_counts()<span style="color:#f92672">.</span>head(<span style="color:#ae81ff">5</span>)
+</code></pre></div><pre><code>19401.0    6979
+19464.0    6643
+19403.0    4854
+19446.0    4748
+19406.0    3174
+Name: zip, dtype: int64
+</code></pre>
+<p>The top townships for the calls were as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;twp&#39;</span>]<span style="color:#f92672">.</span>value_counts()<span style="color:#f92672">.</span>head(<span style="color:#ae81ff">5</span>)
+</code></pre></div><pre><code>LOWER MERION    8443
+ABINGTON        5977
+NORRISTOWN      5890
+UPPER MERION    5227
+CHELTENHAM      4575
+Name: twp, dtype: int64
+</code></pre>
+<p>For 90k + entries, how many unique call titles did we have?</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;title&#39;</span>]<span style="color:#f92672">.</span>nunique()
+</code></pre></div><pre><code>110
+</code></pre>
+<h2 id="initial-data-wrangling-for-feature-creation">Initial Data Wrangling for Feature Creation</h2>
+<p>I extract here some features from the columns in the already in-hand dataset for further analysis.</p>
+<p>There is a &lsquo;reason for call&rsquo; alloted to each entry in the <em>title</em> column which is denoted by the text before the colon.</p>
+<p>From this assumption the timestamp column we further segregate into Year, Month and Day of Week too.</p>
+<p>Over here I create a feature &lsquo;Reason&rsquo; for each call.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;Reason&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;title&#39;</span>]<span style="color:#f92672">.</span>apply(<span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#39;:&#39;</span>)[<span style="color:#ae81ff">0</span>])
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>tail()
+</code></pre></div><!-- raw HTML omitted -->
+<p>Once here, all my effor is addressed to finding out the most common reason for 911 calls, using the dataset as main osurce of information.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;Reason&#39;</span>]<span style="color:#f92672">.</span>value_counts()
+</code></pre></div><pre><code>EMS        48877
+Traffic    35695
+Fire       14920
+Name: Reason, dtype: int64
+</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sns<span style="color:#f92672">.</span>countplot(df[<span style="color:#e6db74">&#39;Reason&#39;</span>])
+</code></pre></div><pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1165ad710&gt;
+</code></pre>
+<p><img src="https://hicala.github.io/images/prj_911_files/prj_911_20_1.png" alt="png"></p>
+<p>Next challenge, organizing the time information by checking the datatype of the timestamp column.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">type(df[<span style="color:#e6db74">&#39;timeStamp&#39;</span>][<span style="color:#ae81ff">0</span>])
+</code></pre></div><pre><code>str
+</code></pre>
+<p>As the timestamps are still string types, I convert it to a python DateTime object, so I can extract the year, month, and day information.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;timeStamp&#39;</span>] <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>to_datetime(df[<span style="color:#e6db74">&#39;timeStamp&#39;</span>])
+</code></pre></div><p>I extract information for a single DateTime object,  as follows.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">time <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;timeStamp&#39;</span>]<span style="color:#f92672">.</span>iloc[<span style="color:#ae81ff">0</span>]
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Hour:&#39;</span>,time<span style="color:#f92672">.</span>hour)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Month:&#39;</span>,time<span style="color:#f92672">.</span>month)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Day of Week:&#39;</span>,time<span style="color:#f92672">.</span>dayofweek)
+</code></pre></div><pre><code>Hour: 17
+Month: 12
+Day of Week: 3
+</code></pre>
+<p>Over here I create new features for the above pieces of information.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;Hour&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;timeStamp&#39;</span>]<span style="color:#f92672">.</span>apply(<span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">.</span>hour)
+df[<span style="color:#e6db74">&#39;Month&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;timeStamp&#39;</span>]<span style="color:#f92672">.</span>apply(<span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">.</span>month)
+df[<span style="color:#e6db74">&#39;Day of Week&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;timeStamp&#39;</span>]<span style="color:#f92672">.</span>apply(<span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">.</span>dayofweek)
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>head(<span style="color:#ae81ff">3</span>)
+</code></pre></div><!-- raw HTML omitted -->
+<p>The Day of the Week is an integer and it might not be instantly clear which number refers to which Day. We can map that information to a Mon-Sun string.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">dmap <span style="color:#f92672">=</span> {<span style="color:#ae81ff">0</span>:<span style="color:#e6db74">&#39;Mon&#39;</span>,<span style="color:#ae81ff">1</span>:<span style="color:#e6db74">&#39;Tue&#39;</span>,<span style="color:#ae81ff">2</span>:<span style="color:#e6db74">&#39;Wed&#39;</span>,<span style="color:#ae81ff">3</span>:<span style="color:#e6db74">&#39;Thu&#39;</span>,<span style="color:#ae81ff">4</span>:<span style="color:#e6db74">&#39;Fri&#39;</span>,<span style="color:#ae81ff">5</span>:<span style="color:#e6db74">&#39;Sat&#39;</span>,<span style="color:#ae81ff">6</span>:<span style="color:#e6db74">&#39;Sun&#39;</span>}
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;Day of Week&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;Day of Week&#39;</span>]<span style="color:#f92672">.</span>map(dmap)
+
+df<span style="color:#f92672">.</span>tail(<span style="color:#ae81ff">3</span>)
+</code></pre></div><!-- raw HTML omitted -->
+<p>I, now, combine the newly created features, to check out the most common call reasons based on the day of the week.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sns<span style="color:#f92672">.</span>countplot(df[<span style="color:#e6db74">&#39;Day of Week&#39;</span>],hue<span style="color:#f92672">=</span>df[<span style="color:#e6db74">&#39;Reason&#39;</span>])
+
+plt<span style="color:#f92672">.</span>legend(bbox_to_anchor<span style="color:#f92672">=</span>(<span style="color:#ae81ff">1.25</span>,<span style="color:#ae81ff">1</span>))
+</code></pre></div><pre><code>&lt;matplotlib.legend.Legend at 0x116d9cbe0&gt;
+</code></pre>
+<p><img src="https://hicala.github.io/images/prj_911_files/prj_911_34_1.png" alt="png"></p>
+<p>The first take away from the analysis is that the number of traffic related 911 calls trends to be the lowest during the weekends, and also the Emergency Service related calls are also low during the weekend.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sns<span style="color:#f92672">.</span>countplot(df[<span style="color:#e6db74">&#39;Month&#39;</span>],hue<span style="color:#f92672">=</span>df[<span style="color:#e6db74">&#39;Reason&#39;</span>])
+
+plt<span style="color:#f92672">.</span>legend(bbox_to_anchor<span style="color:#f92672">=</span>(<span style="color:#ae81ff">1.25</span>,<span style="color:#ae81ff">1</span>))
+</code></pre></div><pre><code>&lt;matplotlib.legend.Legend at 0x117dd1c88&gt;
+</code></pre>
+<p><img src="https://hicala.github.io/images/prj_911_files/prj_911_36_1.png" alt="png"></p>
+<p>Now, I am checking out the relationship between the number of calls vs month.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">byMonth <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>groupby(df,by<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Month&#39;</span>)<span style="color:#f92672">.</span>count()
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">byMonth[<span style="color:#e6db74">&#39;e&#39;</span>]<span style="color:#f92672">.</span>plot<span style="color:#f92672">.</span>line(y<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;e&#39;</span>)
+plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;Calls per Month&#39;</span>)
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#39;Number of Calls&#39;</span>)
+</code></pre></div><pre><code>&lt;matplotlib.text.Text at 0x1031d65c0&gt;
+</code></pre>
+<p><img src="https://hicala.github.io/images/prj_911_files/prj_911_39_1.png" alt="png"></p>
+<p>I decided to use Seaborn here, fit the number of calls to a month and see if there&rsquo;s any concrete correlation between the two.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">byMonth<span style="color:#f92672">.</span>reset_index(inplace<span style="color:#f92672">=</span>True)
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sns<span style="color:#f92672">.</span>lmplot(x<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Month&#39;</span>,y<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;e&#39;</span>,data<span style="color:#f92672">=</span>byMonth)
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#39;Number of Calls&#39;</span>)
+</code></pre></div><pre><code>&lt;matplotlib.text.Text at 0x109aa7fd0&gt;
+</code></pre>
+<p><img src="https://hicala.github.io/images/prj_911_files/prj_911_42_1.png" alt="png"></p>
+<p>After the review, it seems that there are fewer emergency calls during the holiday seasons.</p>
+<p>To see the behavior in more detail, I decided to extract the date from the timestamp</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df[<span style="color:#e6db74">&#39;Date&#39;</span>]<span style="color:#f92672">=</span>df[<span style="color:#e6db74">&#39;timeStamp&#39;</span>]<span style="color:#f92672">.</span>apply(<span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">.</span>date())
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df<span style="color:#f92672">.</span>head(<span style="color:#ae81ff">2</span>)
+</code></pre></div><!-- raw HTML omitted -->
+<p>Here, I am grouping and plotting the data:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pd<span style="color:#f92672">.</span>groupby(df,<span style="color:#e6db74">&#39;Date&#39;</span>)<span style="color:#f92672">.</span>count()[<span style="color:#e6db74">&#39;e&#39;</span>]<span style="color:#f92672">.</span>plot<span style="color:#f92672">.</span>line(y<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;e&#39;</span>)
+
+plt<span style="color:#f92672">.</span>legend()<span style="color:#f92672">.</span>remove()
+plt<span style="color:#f92672">.</span>tight_layout()
+</code></pre></div><p><img src="https://hicala.github.io/images/prj_911_files/prj_911_47_0.png" alt="png"></p>
+<p>I separately analyzed the data with the same plot for each reason.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pd<span style="color:#f92672">.</span>groupby(df[df[<span style="color:#e6db74">&#39;Reason&#39;</span>]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;Traffic&#39;</span>],<span style="color:#e6db74">&#39;Date&#39;</span>)<span style="color:#f92672">.</span>count()<span style="color:#f92672">.</span>plot<span style="color:#f92672">.</span>line(y<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;e&#39;</span>)
+plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;Traffic&#39;</span>)
+plt<span style="color:#f92672">.</span>legend()<span style="color:#f92672">.</span>remove()
+plt<span style="color:#f92672">.</span>tight_layout()
+</code></pre></div><p><img src="https://hicala.github.io/images/prj_911_files/prj_911_49_0.png" alt="png"></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pd<span style="color:#f92672">.</span>groupby(df[df[<span style="color:#e6db74">&#39;Reason&#39;</span>]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;Fire&#39;</span>],<span style="color:#e6db74">&#39;Date&#39;</span>)<span style="color:#f92672">.</span>count()<span style="color:#f92672">.</span>plot<span style="color:#f92672">.</span>line(y<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;e&#39;</span>)
+plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;Fire&#39;</span>)
+plt<span style="color:#f92672">.</span>legend()<span style="color:#f92672">.</span>remove()
+plt<span style="color:#f92672">.</span>tight_layout()
+</code></pre></div><p><img src="https://hicala.github.io/images/prj_911_files/prj_911_50_0.png" alt="png"></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">pd<span style="color:#f92672">.</span>groupby(df[df[<span style="color:#e6db74">&#39;Reason&#39;</span>]<span style="color:#f92672">==</span><span style="color:#e6db74">&#39;EMS&#39;</span>],<span style="color:#e6db74">&#39;Date&#39;</span>)<span style="color:#f92672">.</span>count()<span style="color:#f92672">.</span>plot<span style="color:#f92672">.</span>line(y<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;e&#39;</span>)
+plt<span style="color:#f92672">.</span>title(<span style="color:#e6db74">&#39;EMS&#39;</span>)
+plt<span style="color:#f92672">.</span>legend()<span style="color:#f92672">.</span>remove()
+plt<span style="color:#f92672">.</span>tight_layout()
+</code></pre></div><p><img src="https://hicala.github.io/images/prj_911_files/prj_911_51_0.png" alt="png"></p>
+<p>For a better data visualization, I create a heatmap for the counts of calls on each hour, during a given day of the week.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">day_hour <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>pivot_table(values<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;lat&#39;</span>,index<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Day of Week&#39;</span>,columns<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Hour&#39;</span>,aggfunc<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;count&#39;</span>)
+
+day_hour
+</code></pre></div><!-- raw HTML omitted -->
+<p>A HeatMap is created using the new DataFrame.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sns<span style="color:#f92672">.</span>heatmap(day_hour)
+
+plt<span style="color:#f92672">.</span>tight_layout()
+</code></pre></div><p><img src="https://hicala.github.io/images/prj_911_files/prj_911_55_0.png" alt="png"></p>
+<p>As a result, it is evident that most calls take place around the end of working hours dusing the week.</p>
+<p>I decided to create a clustermap to pair up similar Hours and Days.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sns<span style="color:#f92672">.</span>clustermap(day_hour)
+</code></pre></div><pre><code>&lt;seaborn.matrix.ClusterGrid at 0x11c49f320&gt;
+</code></pre>
+<p><img src="https://hicala.github.io/images/prj_911_files/prj_911_57_1.png" alt="png"></p>
+<h2 id="conclusions">Conclusions</h2>
+<ol>
+<li>Most calls take place around the end of working hours dusing the week.</li>
+<li>It seems that there are fewer emergency calls during the holiday seasons.</li>
+<li>it seems to be better using Seaborn to fit the number of calls to a month and see if there&rsquo;s any concrete correlation between the two.</li>
+<li>The number of traffic related 911 calls trends to be the lowest during the weekends</li>
+<li>The Emergency Service related calls are also low during the weekend.</li>
+</ol>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="https://hicala.github.io/tags/data-analytics" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Data Analytics</a>
+   </li>
+  
+   <li class="list">
+     <a href="https://hicala.github.io/tags/data-visualization" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Data Visualization</a>
+   </li>
+  
+   <li class="list">
+     <a href="https://hicala.github.io/tags/data-mining" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Data Mining</a>
+   </li>
+  
+   <li class="list">
+     <a href="https://hicala.github.io/tags/math-stats" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Math &amp; Stats</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="https://hicala.github.io/projects/prj_hawks/">A NBA Statistical Analytical Research: Atlanta Hawks Roster. 2019-2020</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="https://hicala.github.io/projects/prj_piracy/">The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="https://hicala.github.io/projects/prj_gdp/">GDP Analysis in the context of the economic development and income growth </a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="https://hicala.github.io/projects/data_analytics/">Amazon Project</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="https://hicala.github.io/projects/data_visualization/">Belkis Project</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://hicala.github.io" >
+    &copy;  Hila Calderon 2020 
+  </a>
+    <div>
+
+
+
+
+<a href="https://twitter.com/lasgeotv" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/hilariocalderon/" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/hicala" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="https://hicala.github.io/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
