@@ -3,127 +3,162 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hicala.github.io/projects/data_visualization/</loc>
-    <lastmod>2020-05-20T10:58:08-04:00</lastmod>
+    <loc>https://hicala.github.io/projects/prj_hawks/</loc>
+    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/tags/data-mining/</loc>
+    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hicala.github.io/</loc>
-    <lastmod>2020-05-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hicala.github.io/tags/data-visualization/</loc>
-    <lastmod>2020-05-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hicala.github.io/tags/integrated-development-environment-ide/</loc>
-    <lastmod>2020-05-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hicala.github.io/projects/ide/</loc>
-    <lastmod>2020-05-20T10:58:08-04:00</lastmod>
+    <loc>https://hicala.github.io/projects/prj_gdp/</loc>
+    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hicala.github.io/projects/</loc>
-    <lastmod>2020-05-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hicala.github.io/tags/</loc>
-    <lastmod>2020-05-20T10:58:08-04:00</lastmod>
+    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hicala.github.io/projects/data_analytics/</loc>
-    <lastmod>2020-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hicala.github.io/tags/data-analytics/</loc>
-    <lastmod>2020-04-09T10:58:08-04:00</lastmod>
+    <loc>https://hicala.github.io/projects/prj_piracy/</loc>
+    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hicala.github.io/tags/data-cloud-deployment/</loc>
-    <lastmod>2020-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hicala.github.io/projects/programming_languages/</loc>
-    <lastmod>2020-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hicala.github.io/projects/math_stats/</loc>
-    <lastmod>2020-04-09T10:58:08-04:00</lastmod>
+    <lastmod>2019-08-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hicala.github.io/projects/data_cloud_deployment/</loc>
-    <lastmod>2020-04-09T10:58:08-04:00</lastmod>
+    <lastmod>2019-08-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hicala.github.io/projects/web_scraping/</loc>
-    <lastmod>2020-04-09T10:58:08-04:00</lastmod>
+    <loc>https://hicala.github.io/tags/integrated-development-environment-ide/</loc>
+    <lastmod>2019-05-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hicala.github.io/tags/web-scraping/</loc>
-    <lastmod>2020-04-09T10:58:08-04:00</lastmod>
+    <loc>https://hicala.github.io/projects/ide/</loc>
+    <lastmod>2019-05-20T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hicala.github.io/projects/market_research/</loc>
+    <loc>https://hicala.github.io/projects/data_analytics/</loc>
     <lastmod>2019-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hicala.github.io/tags/web-scrapping/</loc>
+    <loc>https://hicala.github.io/tags/compilation/</loc>
     <lastmod>2019-04-09T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/tags/data-analytics/</loc>
+    <lastmod>2019-04-09T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/projects/data_analytics_compilation/</loc>
+    <lastmod>2019-04-09T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/projects/data_mining_compilation/</loc>
+    <lastmod>2019-04-09T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/projects/data_visualization/</loc>
+    <lastmod>2018-05-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/tags/data-visualization/</loc>
+    <lastmod>2018-05-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/projects/programming_languages/</loc>
+    <lastmod>2018-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://hicala.github.io/projects/machine_learning/</loc>
-    <lastmod>2018-05-20T10:58:08-04:00</lastmod>
+    <lastmod>2017-05-20T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/projects/math_stats/</loc>
+    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/projects/market_research/</loc>
+    <lastmod>2016-04-09T10:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/tags/web-scrapping/</loc>
+    <lastmod>2016-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

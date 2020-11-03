@@ -5874,27 +5874,3 @@ pre {
 .nested-links a{
   word-wrap: break-word;
 }
-
-.resume-page article {
-  margin-left: auto;
-  margin-right: auto;
-   width: 100%;
-}
-
-.resume-page article .embed-responsive-item {
-  width: 100%;
-  height: 640px;
-}
-
-nav .f3 {
-  font-size: 2rem;
-}
-
-#resume-download a, section p a {
-  color: #357edd;
-}
-
-#resume-download a:hover, .resume-download a:focus, section p a:hover, section p a:focus {
-    color: #96ccff;
-    transition: color .15s ease-in;
-}

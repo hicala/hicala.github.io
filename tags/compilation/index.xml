@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compilation on Hila Calderon</title>
+    <link>https://hicala.github.io/tags/compilation/</link>
+    <description>Recent content in Compilation on Hila Calderon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Apr 2019 10:58:08 -0400</lastBuildDate><atom:link href="https://hicala.github.io/tags/compilation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analytics Compilation</title>
+      <link>https://hicala.github.io/projects/data_analytics_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_analytics_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. It is already known that Per capita GDP is a metric that breaks down a country&amp;rsquo;s GDP per person and is calculated by dividing the GDP of a country by its population. Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year.</description>
+    </item>
+    
+    <item>
+      <title>Data Mining Compilation</title>
+      <link>https://hicala.github.io/projects/data_mining_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_mining_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. It is already known that Per capita GDP is a metric that breaks down a country&amp;rsquo;s GDP per person and is calculated by dividing the GDP of a country by its population. Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year.</description>
+    </item>
+    
+  </channel>
+</rss>
