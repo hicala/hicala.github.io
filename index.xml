@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Portfolio on Hila Calderon</title>
+    <link>https://hicala.github.io/</link>
+    <description>Recent content in Data Science Portfolio on Hila Calderon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Sep 2020 18:58:08 -0400</lastBuildDate><atom:link href="https://hicala.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Analytics Compilation</title>
+      <link>https://hicala.github.io/projects/data_analytics_compilation/</link>
+      <pubDate>Fri, 11 Sep 2020 18:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_analytics_compilation/</guid>
+      <description>Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US.: In this research I am analyzing the 911 call dataset in Pensylvania, US in 2016 using the Kaggle dataset for the analysis. More &amp;hellip;
+  GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>A NBA Statistical Analytical Research: Atlanta Hawks Roster. 2019-2020</title>
+      <link>https://hicala.github.io/projects/prj_hawks/</link>
+      <pubDate>Sun, 09 Feb 2020 09:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/prj_hawks/</guid>
+      <description>In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. Modern-day pirates around the world share the legal designation of their historic brethren as “enemies of all mankind” because they disrupt and hinder the safe navigation of maritime vessels containing goods and people.
+As we already know Piracy still exists in the 21st Century. Piracy is a global crime which impedes the free movement of ships containing people and goods, with its attendant economic ramifications.</description>
+    </item>
+    
+    <item>
+      <title>Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US.</title>
+      <link>https://hicala.github.io/projects/prj_911/</link>
+      <pubDate>Sun, 09 Feb 2020 09:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/prj_911/</guid>
+      <description>Tools: Python, Numpy, Seaborn, Matplotlib, Pyplot
+In this research I am analyzing the 911 call dataset. Access to the source code here
+Data Source: Kaggle.
+The data contains the following fields( all are declared as a String variable):
+ lat : Latitude lng: Longitude desc: Description of the Emergency zip: Zipcode title: Title timeStamp: YYYY-MM-DD HH:MM:SS twp: Township addr: Address e: Dummy variable (always 1)  For the data analysis and visualisation we import all the dependencies.</description>
+    </item>
+    
+    <item>
+      <title>GDP Analysis in the context of the economic development and income growth </title>
+      <link>https://hicala.github.io/projects/prj_gdp/</link>
+      <pubDate>Sun, 09 Feb 2020 09:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/prj_gdp/</guid>
+      <description>Tools: Python, NumPy, BeautifulSoup
+I put together all the information related to the GDP and see it relationship per capita. It is already known that Per capita GDP is a metric that breaks down a country&amp;rsquo;s GDP per person and is calculated by dividing the GDP of a country by its population. Gross domestic product (GDP) is the market value of all final goods and services from a nation in a given year.</description>
+    </item>
+    
+    <item>
+      <title>The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy</title>
+      <link>https://hicala.github.io/projects/prj_piracy/</link>
+      <pubDate>Sun, 09 Feb 2020 09:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/prj_piracy/</guid>
+      <description>In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. Modern-day pirates around the world share the legal designation of their historic brethren as “enemies of all mankind” because they disrupt and hinder the safe navigation of maritime vessels containing goods and people.
+As we already know Piracy still exists in the 21st Century. Piracy is a global crime which impedes the free movement of ships containing people and goods, with its attendant economic ramifications.</description>
+    </item>
+    
+    <item>
+      <title>Nikon Project</title>
+      <link>https://hicala.github.io/projects/data_cloud_deployment/</link>
+      <pubDate>Fri, 09 Aug 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_cloud_deployment/</guid>
+      <description>*** Data cloud deployment.***  Feature Extraction Data Wrangling Exploratory Data Analysis (EDA)   About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+    <item>
+      <title>Mily Project</title>
+      <link>https://hicala.github.io/projects/ide/</link>
+      <pubDate>Mon, 20 May 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/ide/</guid>
+      <description>*** Integrated development environment (IDE) ***  BeautifulSoup Pandas Restore Scrappy URL Lib API Data Feed   About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+    <item>
+      <title>Amazon Project</title>
+      <link>https://hicala.github.io/projects/data_analytics/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_analytics/</guid>
+      <description>*** Data Analytics. ***  Feature Extraction Data Wrangling Exploratory Data Analytics (EDA)   About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+    <item>
+      <title>Data Cloud Deployment Compilation</title>
+      <link>https://hicala.github.io/projects/data_cloud_deployment_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_cloud_deployment_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Data Mining Compilation</title>
+      <link>https://hicala.github.io/projects/data_mining_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_mining_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization Compilation</title>
+      <link>https://hicala.github.io/projects/data_visualization_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_visualization_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Integrated Development Environment Compilation</title>
+      <link>https://hicala.github.io/projects/ide_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/ide_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Compilation</title>
+      <link>https://hicala.github.io/projects/machine_learning_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/machine_learning_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Math &amp; Statistics Compilation</title>
+      <link>https://hicala.github.io/projects/math_stats_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/math_stats_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Programming languages Compilation</title>
+      <link>https://hicala.github.io/projects/programming_languages_compilation/</link>
+      <pubDate>Tue, 09 Apr 2019 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/programming_languages_compilation/</guid>
+      <description>GDP Analysis in the context of the economic development and income growth : I put together all the information related to the GDP and see it relationship per capita. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup
+  The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy: In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. More &amp;hellip;
+Tools: Python, NumPy, BeautifulSoup</description>
+    </item>
+    
+    <item>
+      <title>Belkis Project</title>
+      <link>https://hicala.github.io/projects/data_visualization/</link>
+      <pubDate>Sun, 20 May 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/data_visualization/</guid>
+      <description>*** Data visualization. ***  PowerBI MatplotLib Gplot SeaBorn D3.js Tableau   About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+    <item>
+      <title>Halifax Project</title>
+      <link>https://hicala.github.io/projects/programming_languages/</link>
+      <pubDate>Mon, 09 Apr 2018 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/programming_languages/</guid>
+      <description>Programming languages.  Python R programming Json SPSS MatLab   About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+    <item>
+      <title>Laura Project</title>
+      <link>https://hicala.github.io/projects/machine_learning/</link>
+      <pubDate>Sat, 20 May 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/machine_learning/</guid>
+      <description>*** Machine Learning. ***  Regression Reinforcement learning Deep learning Dimensionality reduction   About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+    <item>
+      <title>Hamilton Project</title>
+      <link>https://hicala.github.io/projects/math_stats/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/math_stats/</guid>
+      <description>*** Math &amp;amp; Statistics.***  BeautifulSoup Pandas Restore Scrappy URL Lib API Data Feed   About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+    <item>
+      <title>Market Research Project</title>
+      <link>https://hicala.github.io/projects/market_research/</link>
+      <pubDate>Sat, 09 Apr 2016 10:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/market_research/</guid>
+      <description>*** Web scrapping ***  BeautifulSoup Pandas Restore Scrappy URL Lib API Data Feed   About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://hicala.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hicala.github.io/contact/</guid>
+      <description>Feel free to connect with me on LinkedIn or by Email to get in touch. I am open to any technical debate about my topics of research, discuss collaboration, consulting or join working or research opportunities.
+ About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+    <item>
+      <title>Page Not Found</title>
+      <link>https://hicala.github.io/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hicala.github.io/404/</guid>
+      <description>Your pixels are in another canvas This page doesn&amp;rsquo;t exits. Not to worry. You can head back to my homepage  About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://hicala.github.io/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hicala.github.io/portfolio/</guid>
+      <description>What I Do? I enjoy having a &amp;ldquo;White Hat Hacker&amp;rdquo; attitude and mentality. This type of personality leads me to have a set of practical experiences with a wide range of technologies. See below in the following selection of what I have worked on.
+ Data Mining.  Data Analytics.  Data visualization.  Programming languages.  Math &amp;amp; Statistics.  Machine Learning.  Integrated development environment (IDE).  Data cloud deployment.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://hicala.github.io/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hicala.github.io/resume/</guid>
+      <description>About  | Contact  | Portfolio  | Projects | Resume</description>
+    </item>
+    
+  </channel>
+</rss>
