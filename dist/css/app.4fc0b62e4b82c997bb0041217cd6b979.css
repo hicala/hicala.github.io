@@ -5881,7 +5881,7 @@ pre {
    width: 100%;
 }
 
-.resume-page article .embed-responsive-item {
+.resume-page article iframe {
   width: 100%;
   height: 640px;
 }
