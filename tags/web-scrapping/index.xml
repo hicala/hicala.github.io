@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web scrapping on Hila Calderon</title>
-    <link>https://hicala.github.io/tags/web-scrapping/</link>
+    <link>https://hilacalderon.com/tags/web-scrapping/</link>
     <description>Recent content in Web scrapping on Hila Calderon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Apr 2016 10:58:08 -0400</lastBuildDate><atom:link href="https://hicala.github.io/tags/web-scrapping/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Apr 2016 10:58:08 -0400</lastBuildDate><atom:link href="https://hilacalderon.com/tags/web-scrapping/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Market Research Project</title>
-      <link>https://hicala.github.io/projects/market_research/</link>
+      <link>https://hilacalderon.com/projects/market_research/</link>
       <pubDate>Sat, 09 Apr 2016 10:58:08 -0400</pubDate>
       
-      <guid>https://hicala.github.io/projects/market_research/</guid>
+      <guid>https://hilacalderon.com/projects/market_research/</guid>
       <description>*** Web scrapping ***  BeautifulSoup Pandas Restore Scrappy URL Lib API Data Feed   About  | Contact  | Portfolio  | Projects | Resume</description>
     </item>
     

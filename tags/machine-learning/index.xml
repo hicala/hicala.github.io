@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning. on Hila Calderon</title>
-    <link>https://hicala.github.io/tags/machine-learning./</link>
+    <link>https://hilacalderon.com/tags/machine-learning./</link>
     <description>Recent content in Machine Learning. on Hila Calderon</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://hicala.github.io/tags/machine-learning./index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://hilacalderon.com/tags/machine-learning./index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Laura Project</title>
-      <link>https://hicala.github.io/projects/machine_learning/</link>
+      <link>https://hilacalderon.com/projects/machine_learning/</link>
       <pubDate>Sat, 20 May 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://hicala.github.io/projects/machine_learning/</guid>
+      <guid>https://hilacalderon.com/projects/machine_learning/</guid>
       <description>*** Machine Learning. ***  Regression Reinforcement learning Deep learning Dimensionality reduction   About  | Contact  | Portfolio  | Projects | Resume</description>
     </item>
     
