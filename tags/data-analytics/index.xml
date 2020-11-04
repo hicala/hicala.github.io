@@ -6,7 +6,18 @@
     <description>Recent content in Data Analytics on Hila Calderon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Feb 2020 09:58:08 -0400</lastBuildDate><atom:link href="https://hicala.github.io/tags/data-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Aug 2020 14:58:08 -0400</lastBuildDate><atom:link href="https://hicala.github.io/tags/data-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>News Classifier App.</title>
+      <link>https://hicala.github.io/projects/prj_news_classifier/</link>
+      <pubDate>Thu, 20 Aug 2020 14:58:08 -0400</pubDate>
+      
+      <guid>https://hicala.github.io/projects/prj_news_classifier/</guid>
+      <description>Tools: Python, Numpy, Seaborn, Matplotlib, Pyplot
+News Classifier Tools: Python, Numpy, Pandas, Itertools, Sklearn
+Summary In this research project we took a political dataset from the 2016 US Presidential elections and created a machine learning model using Python to classify the news as REAL or FAKE. We implemented a TfidfVectorizer, initialized a PassiveAggressiveClassifier, and fit our model. Finally, we run an uncertainty evaluation of the model to obtain the level of accuracy.</description>
+    </item>
+    
     <item>
       <title>Data analytical review of the 911 Call incindents in 2016: Pennsylvania, US.</title>
       <link>https://hicala.github.io/projects/prj_911/</link>

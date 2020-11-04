@@ -38,6 +38,41 @@
   </url>
   
   <url>
+    <loc>https://hicala.github.io/tags/data-analytics/</loc>
+    <lastmod>2020-08-20T14:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/tags/data-mining/</loc>
+    <lastmod>2020-08-20T14:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/tags/data-visualization/</loc>
+    <lastmod>2020-08-20T14:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/tags/math-stats/</loc>
+    <lastmod>2020-08-20T14:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hicala.github.io/projects/prj_news_classifier/</loc>
+    <lastmod>2020-08-20T14:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://hicala.github.io/projects/prj_hawks/</loc>
     <lastmod>2020-02-09T09:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -52,35 +87,7 @@
   </url>
   
   <url>
-    <loc>https://hicala.github.io/tags/data-analytics/</loc>
-    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hicala.github.io/tags/data-mining/</loc>
-    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hicala.github.io/tags/data-visualization/</loc>
-    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://hicala.github.io/projects/prj_gdp/</loc>
-    <lastmod>2020-02-09T09:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hicala.github.io/tags/math-stats/</loc>
     <lastmod>2020-02-09T09:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
