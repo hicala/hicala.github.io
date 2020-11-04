@@ -37,7 +37,7 @@
 <meta itemprop="description" content="[ Data Mining ]">
 <meta itemprop="datePublished" content="2020-02-09T09:58:08-04:00" />
 <meta itemprop="dateModified" content="2020-02-09T09:58:08-04:00" />
-<meta itemprop="wordCount" content="134">
+<meta itemprop="wordCount" content="575">
 
 
 
@@ -214,10 +214,100 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In this study the main goal is to evaluate the concentrations of the modern piracy incidents around the world. Modern-day pirates around the world share the legal designation of their historic brethren as “enemies of all mankind” because they disrupt and hinder the safe navigation of maritime vessels containing goods and people.</p>
-<p>As we already know Piracy still exists in the 21st Century. Piracy is a global crime which impedes the free movement of ships containing people and goods, with its attendant economic ramifications. The perpetrators are usually heavily armed, with sophisticated weapons to enable them to hijack a vessel or vessels and redirect them to their desired location for the payment of an expected ransom.</p>
-<p>Access to the <a href="https://github.com/hicala/data-mining_nba_atlanta_hawks_roster_app">source code</a></p>
-<p><em>Tools: Python, NumPy, BeautifulSoup</em></p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><em>Tools: Python, Webscraping, Jupyter-notebook, BeautifulSoup</em></p>
+<p><em>Reference – <a href="https://github.com/hicala/nba_roster_analytic">Github</a></em></p>
+<h2 id="summary">Summary</h2>
+<p>This study is part of a series of statistical analysis in the composition and salary earned by main and key players in the NBA.</p>
+<p>I am using Beautiful Soup for the this Python app. Beautiful Soup is a Python library for parsing data out of HTML and XML files (aka webpages). It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree.</p>
+<p>The <a href="https://www.espn.com/nba/team/roster/_/name/atl/atlanta-hawks">data</a> I used came from Atlanta Hawks Roster from 2019-2020 Championship</p>
+<h2 id="methodology">Methodology</h2>
+<ol>
+<li>Import Modules</li>
+<li>Get the URL link</li>
+<li>Navigate the URL Data Structure</li>
+<li>Testing out data requests</li>
+<li>Write data to a file in pseudo-code:
+<ul>
+<li>Open up a file to write in and append data.</li>
+<li>Write headers</li>
+<li>Run for loop that will make it clean the HTML tags and add their values in an array results</li>
+<li>Run for loop that will write elements of the array to file</li>
+<li>When complete, close the file</li>
+</ul>
+</li>
+<li>The output file in CSV format.</li>
+</ol>
+<h2 id="main-goal">Main goal</h2>
+<ul>
+<li>To access all of the content from the source code of the webpage with Python</li>
+<li>Parse and extract data.</li>
+<li>Save the info in CSV file for further analysis.</li>
+</ul>
+<h2 id="data-info-extracted">Data info extracted:</h2>
+<p>Name, POS ,Age ,HT ,WT ,College and Salary of Team Roster</p>
+<p>If you don&rsquo;t have Beautiful Soup, install with &lsquo;conda install beautifulsoup&rsquo; in terminal.</p>
+<p>Python requires us to explicitly load the libraries that we want to use:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> requests
+<span style="color:#f92672">import</span> bs4
+<span style="color:#f92672">import</span> re
+<span style="color:#f92672">import</span> pandas <span style="color:#f92672">as</span> pd
+</code></pre></div><p>Load a webpage into python so that we can parse it and manipulate it.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+URL <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://www.espn.com/nba/team/roster/_/name/atl/atlanta-hawks&#39;</span>
+</code></pre></div><p>Control of Connection. We just turned the website code into a Python object.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(URL)
+soup <span style="color:#f92672">=</span> bs4<span style="color:#f92672">.</span>BeautifulSoup(response<span style="color:#f92672">.</span>text, <span style="color:#e6db74">&#34;html.parser&#34;</span>)
+</code></pre></div><p>Find all the tags with class city or number</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+data <span style="color:#f92672">=</span> soup<span style="color:#f92672">.</span>findAll(attrs<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#39;class&#39;</span>:[<span style="color:#e6db74">&#39;inline&#39;</span>]})
+</code></pre></div><p>Open new file, make sure path to your data file is correct.</p>
+<p>Later, I write headers</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">f <span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#39;hilca_nba_team_roster.csv&#39;</span>,<span style="color:#e6db74">&#39;w&#39;</span>) 
+f<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#34;Name</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">Pos</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">Age</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">HT</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">WT</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">College</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">Salary&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">results <span style="color:#f92672">=</span> []
+<span style="color:#66d9ef">for</span> element <span style="color:#f92672">in</span> data:
+    TAG_RE <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>compile(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;&lt;[^&gt;]+&gt;&#39;</span>)
+    text <span style="color:#f92672">=</span> TAG_RE<span style="color:#f92672">.</span>sub(<span style="color:#e6db74">&#39;&#39;</span>, str(element))
+    results<span style="color:#f92672">.</span>append(text)
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> results:
+    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> item:
+        i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+        j <span style="color:#f92672">=</span> j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+        <span style="color:#66d9ef">if</span> j <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>: f<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+    <span style="color:#66d9ef">else</span>:
+        i <span style="color:#f92672">=</span> i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>): f<span style="color:#f92672">.</span>write(item <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># write name and add tabulator</span>
+        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">2</span>): f<span style="color:#f92672">.</span>write(item <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># write pos and add tabulator</span>
+        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">3</span>): f<span style="color:#f92672">.</span>write(item <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># write age and add tabulator</span>
+        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>): f<span style="color:#f92672">.</span>write(item <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># write ht and add tabulator</span>
+        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">5</span>): f<span style="color:#f92672">.</span>write(item <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># write wt and add tabulator</span>
+        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">6</span>): f<span style="color:#f92672">.</span>write(item <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># write college and add tabulator</span>
+        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">7</span>): f<span style="color:#f92672">.</span>write(item) <span style="color:#75715e"># write salary and add tabulator</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">f<span style="color:#f92672">.</span>close() <span style="color:#75715e"># close file</span>
+</code></pre></div><h2 id="results">Results</h2>
+<ul>
+<li>
+<p>Height average is 6' 7&quot;</p>
+</li>
+<li>
+<p>Age average is 26</p>
+</li>
+<li>
+<p>Weight average is 200 Lbs</p>
+</li>
+<li>
+<p>Salary information is still pending for further analysis</p>
+</li>
+</ul>
+<h2 id="conclusions">Conclusions</h2>
+<ul>
+<li>We used Beautiful Soup as the main tool.</li>
+<li>The major concept with Beautiful Soup is that it allows you to access elements of your page by following the CSS structures, such as grabbing all links, all headers, specific classes, or more.</li>
+<li>Beautiful Soup is a powerful library.</li>
+<li>Once we grab elements, Python makes it easy to write the elements or relevant components of the elements into other files, such as a CSV, that can be stored in a database or opened in other software.</li>
+</ul>
 <hr>
 <p><a href="https://hilacalderon.com/about/"> About </a> | <a href="https://hilacalderon.com/contact/"> Contact </a> | <a href="https://hilacalderon.com/portfolio/"> Portfolio </a> | <a href="https://hilacalderon.com/projects/"> Projects </a>| <a href="https://hilacalderon.com/resume/"> Resume </a></p>
 <ul class="pa0">
@@ -247,11 +337,11 @@
         </li>
 	    
 	     <li  class="mb2">
-          <a href="https://hilacalderon.com/projects/prj_gdp/">GDP Analysis in the context of the economic development and income growth </a>
+          <a href="https://hilacalderon.com/projects/prj_piracy/">The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy</a>
         </li>
 	    
 	     <li  class="mb2">
-          <a href="https://hilacalderon.com/projects/prj_piracy/">The 21st Century Piracy Phenomenon. Exploring Contemporary Sea Piracy</a>
+          <a href="https://hilacalderon.com/projects/prj_gdp/">GDP Analysis in the context of the economic development and income growth </a>
         </li>
 	    
     </ul>

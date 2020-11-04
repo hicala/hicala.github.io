@@ -3,41 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hilacalderon.com/tags/compilation/</loc>
-    <lastmod>2020-09-11T18:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/data_analytics_compilation/</loc>
-    <lastmod>2020-09-11T18:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/</loc>
-    <lastmod>2020-09-11T18:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/</loc>
-    <lastmod>2020-09-11T18:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/tags/</loc>
-    <lastmod>2020-09-11T18:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://hilacalderon.com/tags/data-analytics/</loc>
     <lastmod>2020-08-20T14:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -46,6 +11,13 @@
   
   <url>
     <loc>https://hilacalderon.com/tags/data-mining/</loc>
+    <lastmod>2020-08-20T14:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hilacalderon.com/</loc>
     <lastmod>2020-08-20T14:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -67,6 +39,20 @@
   
   <url>
     <loc>https://hilacalderon.com/projects/prj_news_classifier/</loc>
+    <lastmod>2020-08-20T14:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hilacalderon.com/projects/</loc>
+    <lastmod>2020-08-20T14:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hilacalderon.com/tags/</loc>
     <lastmod>2020-08-20T14:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -101,77 +87,7 @@
   </url>
   
   <url>
-    <loc>https://hilacalderon.com/tags/data-cloud-deployment/</loc>
-    <lastmod>2019-08-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/data_cloud_deployment/</loc>
-    <lastmod>2019-08-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/tags/integrated-development-environment-ide/</loc>
-    <lastmod>2019-05-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/ide/</loc>
-    <lastmod>2019-05-20T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/data_analytics/</loc>
-    <lastmod>2019-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/data_cloud_deployment_compilation/</loc>
-    <lastmod>2019-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/data_mining_compilation/</loc>
-    <lastmod>2019-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/data_visualization_compilation/</loc>
-    <lastmod>2019-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/ide_compilation/</loc>
-    <lastmod>2019-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/machine_learning_compilation/</loc>
-    <lastmod>2019-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/projects/math_stats_compilation/</loc>
+    <loc>https://hilacalderon.com/tags/compilation/</loc>
     <lastmod>2019-04-09T10:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -185,43 +101,57 @@
   </url>
   
   <url>
-    <loc>https://hilacalderon.com/projects/data_visualization/</loc>
-    <lastmod>2018-05-20T10:58:08-04:00</lastmod>
+    <loc>https://hilacalderon.com/projects/data_analytics_compilation/</loc>
+    <lastmod>2018-09-11T18:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hilacalderon.com/projects/programming_languages/</loc>
-    <lastmod>2018-04-09T10:58:08-04:00</lastmod>
+    <loc>https://hilacalderon.com/projects/market_research_compilation/</loc>
+    <lastmod>2018-09-11T18:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hilacalderon.com/projects/machine_learning/</loc>
-    <lastmod>2017-05-20T10:58:08-04:00</lastmod>
+    <loc>https://hilacalderon.com/projects/data_cloud_deployment_compilation/</loc>
+    <lastmod>2018-09-11T18:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hilacalderon.com/projects/math_stats/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <loc>https://hilacalderon.com/projects/data_mining_compilation/</loc>
+    <lastmod>2018-09-11T18:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hilacalderon.com/projects/market_research/</loc>
-    <lastmod>2016-04-09T10:58:08-04:00</lastmod>
+    <loc>https://hilacalderon.com/projects/data_visualization_compilation/</loc>
+    <lastmod>2018-09-11T18:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://hilacalderon.com/tags/web-scrapping/</loc>
-    <lastmod>2016-04-09T10:58:08-04:00</lastmod>
+    <loc>https://hilacalderon.com/projects/ide_compilation/</loc>
+    <lastmod>2018-09-11T18:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hilacalderon.com/projects/machine_learning_compilation/</loc>
+    <lastmod>2018-09-11T18:58:08-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://hilacalderon.com/projects/math_stats_compilation/</loc>
+    <lastmod>2018-09-11T18:58:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -245,18 +175,6 @@
   </url>
   
   <url>
-    <loc>https://hilacalderon.com/tags/machine-learning./</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/tags/math-statistics./</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://hilacalderon.com/404/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -264,12 +182,6 @@
   
   <url>
     <loc>https://hilacalderon.com/portfolio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://hilacalderon.com/tags/programming-languages./</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
